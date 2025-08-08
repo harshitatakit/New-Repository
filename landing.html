@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKIN's - Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+  
+  <link href="style.css" rel="stylesheet">
+ <link href="cart.html" rel="veiw cart">
+ 
+</head>
+<body>
+
+
+  <div class="hero">
+    <div >
+      <h1 class="head-text">BareBloom</h1>
+      <p class="short-text">bare beauty, blooming skin</p>
+      <p class="hero-text">Discover hand-picked skincare products tailored to every skin type. Curated by experts. Loved by thousands. Begin your glow journey today.</p>
+    </div>
+    <img src="header pic.jpg" alt="GlowSkin Hero" />
+  </div>
+
+  <section>
+    <h2>Cleansers</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="cetaphilcleanser.jpg"><h3>Cetaphil – ₹299</h3><button onclick="addToCart('Cetaphil', 299)">Add to Cart</button></div>
+      <div class="product-card"><img src="simplecleanser.jpg"><h3>Simple – ₹250</h3><button onclick="addToCart('Simple', 250)">Add to Cart</button></div>
+      <div class="product-card"><img src="ceravecleanser.jpg"><h3>CeraVe – ₹550</h3><button onclick="addToCart('CeraVe', 550)">Add to Cart</button></div>
+      <div class="product-card"><img src="ordincleanser.jpg"><h3>Ordinary – ₹499</h3><button onclick="addToCart('Ordinary', 499)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Toners</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="plumtomer.jpg"><h3>Plum  – ₹399</h3><button onclick="addToCart('Plum Rice Toner', 399)">Add to Cart</button></div>
+      <div class="product-card"><img src="centoner.jpg"><h3>Centella – ₹349</h3><button onclick="addToCart('Centella Toner', 349)">Add to Cart</button></div>
+      <div class="product-card"><img src="dottoner.jpg"><h3>Dot & Key – ₹420</h3><button onclick="addToCart('Dot & Key Toner', 420)">Add to Cart</button></div>
+      <div class="product-card"><img src="joseontonr.jpg"><h3>Beauty of Joseon – ₹499</h3><button onclick="addToCart('BOJ Toner', 499)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Serums</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="mimalistserum.jpeg"><h3>Minimalist – ₹595</h3><button onclick="addToCart('Minimalist Serum', 595)">Add to Cart</button></div>
+      <div class="product-card"><img src="Theordinayserum.jpeg"><h3>Ordinary – ₹750</h3><button onclick="addToCart('Ordinary Serum', 750)">Add to Cart</button></div>
+      <div class="product-card"><img src="Madagascar Centella Tea-Trica Relief Ampoule.jpeg"><h3>Centella – ₹499</h3><button onclick="addToCart('Centella Serum', 499)">Add to Cart</button></div>
+      <div class="product-card"><img src="Glow Deep Serum_ Rice + Arbutin - 30ml.jpeg"><h3>Beauty of Joseon – ₹699</h3><button onclick="addToCart('BOJ Serum', 699)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Moisturizers</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="11 Best Neutrogena.jpeg"><h3>Neutrogena – ₹470</h3><button onclick="addToCart('Neutrogena', 470)">Add to Cart</button></div>
+      <div class="product-card"><img src="ceta mois.jpeg"><h3>Cetaphil – ₹320</h3><button onclick="addToCart('Cetaphil Moist', 320)">Add to Cart</button></div>
+      <div class="product-card"><img src="plum mois.jpeg"><h3>Plum Rice – ₹399</h3><button onclick="addToCart('Plum Moist', 399)">Add to Cart</button></div>
+      <div class="product-card"><img src="Cerave Moisturizing.jpeg"><h3>CeraVe – ₹520</h3><button onclick="addToCart('CeraVe Moist', 520)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lip Care</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="vaeline.jpeg"><h3>Vaseline – ₹99</h3><button onclick="addToCart('Vaseline Lip', 99)">Add to Cart</button></div>
+      <div class="product-card"><img src="LANEIGE.jpeg"><h3>Laneige – ₹680</h3><button onclick="addToCart('Laneige Lip', 680)">Add to Cart</button></div>
+      <div class="product-card"><img src="rhode.jpeg"><h3>Rhode – ₹900</h3><button onclick="addToCart('Butter Lip', 410)">Add to Cart</button></div>
+      <div class="product-card"><img src="aquaphor.jpeg"><h3>Aquaphor – ₹360</h3><button onclick="addToCart('Aquaphor Lip', 360)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sunscreens</h2>
+    <div class="product-grid">
+      <div class="product-card"><img src="deconstruct.jpeg"><h3>Deconstruct – ₹445</h3><button onclick="addToCart('La Shield Sunscreen', 545)">Add to Cart</button></div>
+      <div class="product-card"><img src="ceravesun.jpeg"><h3>Cera Ve – ₹495</h3><button onclick="addToCart('Minimalist Sunscreen', 495)">Add to Cart</button></div>
+      <div class="product-card"><img src="Neutrogena Ultra Sheer Dry-Touch.jpeg"><h3>Neutrogena – ₹399</h3><button onclick="addToCart('Aqualogica Sunscreen', 399)">Add to Cart</button></div>
+    <div class="product-card"><img src="Dot & Key Sunscreen.jpeg"><h3>Dot And Key– ₹499</h3><button onclick="addToCart('Aqualogica Sunscreen', 399)">Add to Cart</button></div>
+    </div>
+  </section>
+
+ <div class="footer">
+    <a href="cart.html">View Cart</a></div>
+
+  <h2 class="logo">GlowSkin</h2>
+  
+</div>
+
+  <script>
+    function addToCart(name, price) {
+      let cart = JSON.parse(localStorage.getItem("cartItems")) || [];
+      cart.push({ name, price });
+      localStorage.setItem("cartItems", JSON.stringify(cart));
+      alert(`${name} added to cart!`);
+    }
+  </script>
+</body>
+</html>

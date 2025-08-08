@@ -1,0 +1,118 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    body {
+      background-color: #fffaf5;
+      color: #2b2b2b;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff0e6;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #3c2f2f;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+      background-color: #fef9f4;
+    }
+    .hero-text {
+        max-width: 500px;
+    font-size: 25px;
+      color: #555;
+    }
+
+
+   .head-text{ 
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+   margin-bottom: 20px;
+}
+.short-text{
+    font-size: 20px;
+    font-family:"Italiana", sans-serif; 
+     margin-bottom: 20px;
+}
+
+    .hero img {
+      max-width: 470px;
+      border-radius: 15px;
+    
+
+    }
+
+    section {
+      padding: 40px 60px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 80px;
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    .product-card button {
+      background-color: #3c2f2f;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .product-card button:hover {
+      background-color: #000;
+    }
+.footer{
+
+    background: #fff;
+      border-radius: 3px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 5px;
+      text-align: center;
+      font-size: 25px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      color: black;
+}
+.logo{
+         text-align: center;
+         padding-top: 15px;
+}
