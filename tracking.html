@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Track Order</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+<h3>Track Order</h3>
+<input id="oid" placeholder="Order ID">
+<button onclick="track()">Track</button>
+
+<div class="progress">
+  <div class="step" id="s1">Ordered</div>
+  <div class="step" id="s2">Shipped</div>
+  <div class="step" id="s3">Out for Delivery</div>
+  <div class="step" id="s4">Delivered</div>
+</div>
+
+<script>
+function track() {
+  const id = oid.value;
+  const orders = JSON.parse(localStorage.getItem("orders")) || [];
+  const o = orders.find(x => x.id === id);
+  if (!o) return alert("Order not found");
+
+  const map = { "Ordered":1,"Shipped":2,"Out for Delivery":3,"Delivered":4 };
+  for (let i=1;i<=map[o.status];i++)
+    document.getElementById("s"+i).classList.add("active");
+}
+</script>
+
+</body>
+</html>
